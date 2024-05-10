@@ -1,0 +1,27 @@
+.box {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 5px;
+}
+
+.divider {
+  width: 90%;
+  margin: 10px;
+}
+
+.bold {
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.red {
+  color: #f35624;
+}
+
+.blue {
+  color: #4e7bcf;
+}

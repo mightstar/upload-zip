@@ -1,0 +1,16 @@
+type Query {
+  agreements(order: String, where: JSON, offset: Int, limit: Int): [Agreement]
+}
+
+type Agreement {
+  id: Int
+  type: String
+  active: Boolean
+  name: String
+  key: String
+  version: String
+  content: String
+
+  createdAt: DateTime
+  updatedAt: DateTime
+}
